@@ -1,4 +1,4 @@
-import animationData from '../../../public/developer-animation.json';
+import animationData from '../../../public/animation.json';
 import LottieComp from '@/components/lottie/Lottie';
 import { BlogPost } from '@/types/BlogPost';
 import { Home } from '@/types/Home';
@@ -18,7 +18,7 @@ export default async function Home() {
     <div className="w-[100%] flex flex-col items-center">
       <div className="max-w-[1440px] w-[100%] min-h-[calc(100vh-60px)] my-8">
         <div className="bg-white-600 mx-4 p-8 sm:p-12 md:p-20 min-h-[75vh] rounded-lg flex flex-col lg:flex-row justify-between items-center">
-          <div className="max-w-[500px]">
+          <div className="max-w-[500px] xl:max-w-[600px]">
             <p>{homeContent?.firstSection?.subheading}</p>
             <h1 className="text-6xl font-bold">{homeContent?.firstSection?.heading}</h1>
             <p className="mt-4 mb-8">{homeContent?.firstSection?.tagline}</p>

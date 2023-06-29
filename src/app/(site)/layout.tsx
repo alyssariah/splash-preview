@@ -10,8 +10,8 @@ import { NextAuthProvider } from '../provider';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Next.js Sanity Template',
-    template: '%s | Next Sanity CMS',
+    default: 'Splash n Dash',
+    template: '%s | Splash n Dash',
   },
   description: 'Create Template with Next and Sanity',
   openGraph: {
@@ -91,12 +91,24 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       url: '/about',
     },
     {
-      label: 'Contact',
-      url: '/contact',
+      label: 'Classes',
+      url: '/classes',
     },
     {
-      label: 'Blog',
-      url: '/blog',
+      label: 'Trial & Events',
+      url: '/events',
+    },
+    {
+      label: 'Calendar',
+      url: '/calendar',
+    },
+    {
+      label: 'Resources',
+      url: '/resources',
+    },
+    {
+      label: 'Contact',
+      url: '/contact',
     },
   ];
   return (

@@ -7,6 +7,7 @@ import clsx from 'clsx';
 import { disableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
 import { BsCart, BsPerson, BsSearch } from 'react-icons/bs';
 import { useUI } from '@/contexts/managed-ui';
+import { GiJumpingDog } from 'react-icons/gi';
 import { Button } from '../button/Button';
 
 export interface NavbarProps {
@@ -77,17 +78,9 @@ export default function Navbar({
               ['w-[200px]']: format == 'Center links',
             })}
           >
-            <Link href="/">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={logo.image} className="hidden sm:block" alt={logo.alt} width={180} />
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={logo.shortImage}
-                className="block sm:hidden"
-                alt={logo.alt}
-                width={60}
-                height={60}
-              />
+            <Link href="/" className="flex items-center space-x-3">
+              <GiJumpingDog className="text-2xl" />
+              <span>Splash N&apos; Dash</span>
             </Link>
           </div>
 

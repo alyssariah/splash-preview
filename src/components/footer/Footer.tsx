@@ -22,7 +22,7 @@ export const Footer = () => {
     },
   ];
 
-  const companyName = 'NextGen WebWorks';
+  const companyName = "Splash n' Dash";
 
   const companyDescription =
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';

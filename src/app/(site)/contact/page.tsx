@@ -6,7 +6,7 @@ export default function ContactPage() {
       <div className="max-w-[1440px] w-[100%] min-h-[calc(100vh-60px)] text-black-500 flex items-center justify-center">
         <div className="max-w-md w-full space-y-8">
           <div>
-            <h2 className="text-center text-3xl font-extrabold text-gray-900">Contact Me</h2>
+            <h2 className="text-center text-3xl font-extrabold text-gray-900">Contact Us</h2>
           </div>
           <ContactForm />
         </div>
