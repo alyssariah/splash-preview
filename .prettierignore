@@ -1,0 +1,9 @@
+node_modules
+storybook-static
+build
+.github
+.next
+next-end.d.ts
+next.config.js
+postcss.config.js
+yarn.lock

@@ -1,0 +1,107 @@
+.portable-text {
+  strong {
+    font-weight: 600;
+  }
+
+  p {
+    margin: 1rem 0;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+
+  blockquote {
+    background: 'silver';
+    border-left: 10px solid 'silver';
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: '\201C''\201D''\2018''\2019';
+  }
+
+  blockquote:before {
+    color: 'silver';
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+
+  blockquote p {
+    display: inline;
+  }
+
+  blockquote cite {
+    display: block;
+    font-style: italic;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+    thead tr {
+      color: 'black';
+      text-align: left;
+    }
+
+    th,
+    td {
+      padding: 12px 15px;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid 'silver';
+      background-color: 'silver';
+    }
+
+    tbody tr:nth-of-type(even) {
+      background-color: 'silver';
+    }
+
+    tbody tr:last-of-type {
+      border-bottom: 1px solid 'silver';
+    }
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style-type: disc;
+    margin: 0 2rem;
+    line-height: 1.75rem;
+
+    ul {
+      list-style-type: circle;
+      margin-left: 1rem;
+    }
+
+    ol {
+      list-style-type: lower-alpha;
+      margin-left: 1rem;
+    }
+  }
+
+  ol {
+    list-style-type: decimal;
+    margin: 0 2rem;
+    line-height: 1.75rem;
+
+    ul {
+      list-style-type: circle;
+      margin-left: 1rem;
+    }
+
+    ol {
+      list-style-type: lower-alpha;
+      margin-left: 1rem;
+    }
+  }
+}
